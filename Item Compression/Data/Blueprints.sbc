@@ -4,14 +4,14 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>IngotCompression</SubtypeId>
+        <SubtypeId>Compressed_Iron</SubtypeId>
       </Id>
-      <DisplayName>Compressed Iron Plates</DisplayName>
+      <DisplayName>Compressed Iron</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ingot" SubtypeId="Iron" />
       </Prerequisites>
-      <Result Amount="1" TypeId="CompressedIngot" SubtypeId="Iron" />
+      <Result Amount="1" TypeId="Component" SubtypeId="Compressed_Iron" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
     </Blueprint>
   </Blueprints>
