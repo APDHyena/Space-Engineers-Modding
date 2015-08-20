@@ -6,7 +6,7 @@
         <TypeId>CompressedIngot</TypeId>
         <SubtypeId>Iron</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+      <DisplayName>Compressed Iron</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Size>
         <X>0.05</X>
@@ -14,7 +14,7 @@
         <Z>0.05</Z>
       </Size>
       <Mass>1</Mass>
-      <Volume>0.127</Volume>
+      <Volume>30</Volume>
       <Model>Models\Ingots\iron_ingot.mwm</Model>
       <IconSymbol>IconSymbol_Fe</IconSymbol>
     </PhysicalItem>

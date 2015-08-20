@@ -6,7 +6,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IngotCompression</SubtypeId>
       </Id>
-      <DisplayName>Compressed Iron</DisplayName>
+      <DisplayName>Compressed Iron Plates</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ingot" SubtypeId="Iron" />

@@ -3,10 +3,10 @@
   <CubeBlocks>
 	<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
-        <TypeId>Assembler</TypeId>
-        <SubtypeId>LargeAssembler</SubtypeId>
+        <TypeId>Compressor</TypeId>
+        <SubtypeId>IngotCompressor</SubtypeId>
       </Id>
-      <DisplayName>Compression Array</DisplayName>
+      <DisplayName>Ingot Compression Array</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -29,7 +29,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Assembler</BlockPairName>
+      <BlockPairName>Compressor</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <InventoryMaxVolume>1</InventoryMaxVolume>
@@ -41,10 +41,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>1.50</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>LargeBlocks</Class>
-        <Class>SmallBlocks</Class>
-        <Class>Components</Class>
-        <Class>Tools</Class>
+        <Class>IngotCompression</Class>
       </BlueprintClasses>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
